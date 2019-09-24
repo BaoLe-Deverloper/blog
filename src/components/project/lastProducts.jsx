@@ -11,7 +11,7 @@ export default class lastProjects extends Component {
         
         const list = products.map((val,i)=>{
         
-           return <LastProject key={i} name={val.name} title ={val.title} link={val.urlLink} content={val.content} urlImage={val.urlImage} />
+           return <LastProject key={i} name={val.name} title={val.title} link={val.urlLink} content={val.content} urlImage={val.urlImage} />
         })
         return(
             <div>

@@ -13,13 +13,12 @@ export default class projects extends Component {
         
         const list = products.map((val,i)=>{
       
-           return <Project key={i} title ={val.title} link={val.urlLink} content={val.content} urlImage={val.urlImage} />
+           return <Project key={i} title={val.title} link={val.urlLink} content={val.content} urlImage={val.urlImage} />
         })
         return(
             <div>
               {list}
-            </div>
-          
+            </div> 
         )
     }
 }

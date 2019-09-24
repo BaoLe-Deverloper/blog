@@ -6,9 +6,10 @@ import Languages from "../languages"
 import Educations from "../educations"
 import Contacts from "../contacts"
 import About from "../about"
-import {Link} from 'react-router-dom'
+
 import LastProjects from "../project/lastProducts"
 export default class home_page extends Component {
+  
   render() {
     return (
       <Layout>

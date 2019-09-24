@@ -1,8 +1,6 @@
 import React,{Component} from 'react'
 export default class about extends Component{
-    constructor(props){
-        super(props)
-    }
+   
     render(){
         return(
             <section className="about section">

@@ -1,7 +1,8 @@
 import React, { Component } from "react"
-import $ from 'jquery'
+
 
 export default class skills extends Component {
+   
     // componentDidMount() {
     //     $('.level-label').tooltip();
     //   }

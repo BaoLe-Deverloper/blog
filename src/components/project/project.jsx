@@ -1,8 +1,6 @@
 import React, {Component} from 'react'
 export default class project extends Component {
-    constructor(props){
-        super(props)
-    }
+  
     render(){
         return(
             <div className="item row">

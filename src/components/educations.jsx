@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 export default class educations extends Component {
+    
     render() {
 
         let data = [
